@@ -98,3 +98,11 @@ document:
       deleted: false
       createdAt: 2022-01-06T11:48:23.665Z
       modifiedAt: 2022-01-06T11:48:21.665Z
+logging:
+  level:
+    root: WARN
+    de:
+      europace: INFO
+spring:
+  profiles:
+    active: default
