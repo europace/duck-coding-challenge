@@ -1,0 +1,100 @@
+document:
+  props:
+    - id: 1
+      name: personalausweis
+      size: 10540
+      type: PDF
+      categories:
+        - cat_1
+        - cat_2
+        - cat_3
+      deleted: false
+      createdAt: 2021-10-16T10:14:41.595Z
+      modifiedAt: 2021-10-16T10:14:41.595Z
+    - id: 2
+      name: ehefrau_personalausweis
+      size: 15890
+      type: PDF
+      categories:
+        - cat_1
+        - cat_2
+      deleted: false
+      createdAt: 2021-12-11T08:15:40.595Z
+      modifiedAt: 2021-12-11T08:15:40.595Z
+    - id: 3
+      name: Scan352732
+      size: 1029842
+      type: PDF
+      categories:
+        - cat_1
+        - cat_4
+      deleted: false
+      createdAt: 2021-12-11T09:09:34.535Z
+      modifiedAt: 2021-12-11T09:09:56.315Z
+    - id: 4
+      name: Scan23732
+      size: 1652922
+      type: PDF
+      categories:
+        - cat_5
+      deleted: false
+      createdAt: 2021-12-11T09:09:34.535Z
+      modifiedAt: 2021-12-11T09:09:56.315Z
+    - id: 5
+      name: Scan56672
+      size: 1652922
+      type: PDF
+      categories:
+        - cat_3
+        - cat_5
+      deleted: true
+      createdAt: 2021-12-12T09:09:00.125Z
+      modifiedAt: 2021-12-12T09:09:23.335Z
+    - id: 6
+      name: Scan35682
+      size: 165922
+      type: PDF
+      categories:
+        - cat_2
+        - cat_3
+        - cat_4
+      deleted: true
+      createdAt: 2021-12-12T09:12:10.155Z
+      modifiedAt: 2021-12-12T09:12:20.335Z
+    - id: 7
+      name: Scan55623
+      size: 16523
+      type: IMAGE
+      categories:
+        - cat_3
+      deleted: false
+      createdAt: 2022-01-05T09:12:10.155Z
+      modifiedAt: 2022-01-05T09:12:10.155Z
+    - id: 8
+      name: Scan55623
+      size: 16523
+      type: PDF
+      categories:
+        - cat_5
+      deleted: false
+      createdAt: 2022-01-05T09:15:40.755Z
+      modifiedAt: 2022-01-05T09:15:40.755Z
+    - id: 9
+      name: Scan55589
+      size: 16523
+      type: PDF
+      categories:
+        - cat_5
+      deleted: false
+      createdAt: 2022-01-06T11:45:34.435Z
+      modifiedAt: 2022-01-06T11:45:34.435Z
+    - id: 10
+      name: Scan79589
+      size: 462343
+      type: PDF
+      categories:
+        - cat_6
+        - cat_34
+      deleted: false
+      createdAt: 2022-01-06T11:48:23.665Z
+      modifiedAt: 2022-01-06T11:48:21.665Z
