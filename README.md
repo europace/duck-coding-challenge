@@ -37,11 +37,11 @@
 #### Acceptance Criteria:
 
 * Create a project using `Java` or `Java with Spring Boot`
-* Use the [Documents API](#using-test-api) to the received and display following information
-  * `Total number` of documents
-  * Number of `deleted` documents
-  * `Total size` of documents
-  * `Average size` of documents
+* Use the [Documents API](#using-test-api) to the received and display (E.g. Console, Rest, ...) following information
+    * `Total number` of documents
+    * Number of `deleted` documents
+    * `Total size` of documents
+    * `Average size` of documents
 * Create a `filter` to search documents by `category`
 * Describe in a `README.md` file how to run and test your service
 
