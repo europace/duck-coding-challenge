@@ -30,11 +30,13 @@
 
 * Requires [Docker](https://www.docker.com/products/docker-desktop/)
 
-1. Create the docker image:
+1. clone this repository
+
+3. Create the docker image:
    `docker build -t europace/document-api .`
 
-2. Run the docker image:
+4. Run the docker image:
    `docker run --rm -p 8080:8080 europace/document-api`
 
-3. Example request:
+5. Example request:
    `curl --location --request GET 'http://localhost:8080/v1/documents'`
