@@ -4,6 +4,7 @@ import de.europace.documentapi.domain.Document;
 import de.europace.documentapi.service.DocumentService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,6 +18,7 @@ public class DocumentController {
 
     private final DocumentService service;
 
+    @CrossOrigin
     @GetMapping
     public ResponseEntity<List<Document>> getDocuments() {
         return ResponseEntity.ok(service.getDocuments());
