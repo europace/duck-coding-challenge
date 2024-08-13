@@ -6,5 +6,5 @@ RUN (chmod +x gradlew)
 RUN (./gradlew clean build --warn)
 
 FROM eclipse-temurin:21-jre as BuildImage
-COPY build/libs/*.jar /app.jar
+COPY build/libs/document-api.jar /app.jar
 ENTRYPOINT ["java","-jar","app.jar"]
