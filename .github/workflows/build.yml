@@ -49,7 +49,7 @@ jobs:
         id: "update"
         run: |
           ${{ steps.java_info.outputs.cmd_update_wrapper }}
-          if [ "${{ steps.java_info.outputs.is_maven }}" ]; then
+          if [ "${{ steps.java_info.outputs.is_maven }}" == "true" ]; then
             ${{ steps.java_info.outputs.cmd_update_plugs }}
             ${{ steps.java_info.outputs.cmd_update_props }}
             ${{ steps.java_info.outputs.cmd_update_parent }}
