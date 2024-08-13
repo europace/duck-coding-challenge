@@ -43,8 +43,6 @@ jobs:
         with:
           java-version: ${{ steps.java_info.outputs.java_version }}
           distribution: 'adopt'
-      - name: "Install bzip2 for TopDoc/PhantomJS"
-        run: sudo apt-get install -y bzip2
       - name: "Update"
         id: "update"
         run: |
