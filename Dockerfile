@@ -5,7 +5,6 @@ COPY build.gradle settings.gradle gradlew ./
 RUN (chmod +x gradlew)
 RUN (./gradlew clean build --warn)
 
-#cause fabric8 provides also ARM tags...
 FROM eclipse-temurin:21-jre as BuildImage
 COPY build/libs/*.jar /app.jar
 ENTRYPOINT ["java","-jar","app.jar"]
